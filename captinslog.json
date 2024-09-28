@@ -3,7 +3,7 @@
     "wake_word": "catpinslog",
     "author": "MichaelDot",
     "website": "https://github.com/ubergeekseven/microwakeword/main/",
-    "model": "./captinslog.tflite",
+    "model": "captinslog.tflite",
     "version": 2,
     "micro": {
         "probability_cutoff": 0.97,
