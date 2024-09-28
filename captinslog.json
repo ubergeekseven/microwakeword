@@ -1,0 +1,12 @@
+{
+    "type": "micro",
+    "wake_word": "catpinslog",
+    "author": "MichaelDot",
+    "website": "https://github.com/ubergeekseven/microwakeword/blob/main/",
+    "model": "./captinslog.tflite",
+    "version": 1,
+    "micro": {
+        "probability_cutoff": 0.97,
+        "sliding_window_size": 10
+    }
+}
