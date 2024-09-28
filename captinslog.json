@@ -4,9 +4,10 @@
     "author": "MichaelDot",
     "website": "https://github.com/ubergeekseven/microwakeword/main/",
     "model": "./captinslog.tflite",
-    "version": 1,
+    "version": 2,
     "micro": {
         "probability_cutoff": 0.97,
-        "sliding_window_size": 10
+        "sliding_window_size": 10,
+        "minimum_esphome_version": "2024.7"
     }
 }
