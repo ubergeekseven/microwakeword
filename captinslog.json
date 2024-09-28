@@ -4,6 +4,7 @@
     "author": "MichaelDot",
     "website": "https://github.com/ubergeekseven/microwakeword/main/",
     "model": "captinslog.tflite",
+    "trained_languages": ["en"],
     "version": 2,
     "micro": {
         "probability_cutoff": 0.97,
