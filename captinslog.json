@@ -2,13 +2,16 @@
     "type": "micro",
     "wake_word": "catpinslog",
     "author": "MichaelDot",
-    "website": "https://github.com/ubergeekseven/microwakeword/main/",
-    "model": "captinslog.tflite",
+    "website": "https://github.com/ubergeekseven",
+    "model": "https://raw.githubusercontent.com/ubergeekseven/microwakeword/refs/heads/main/captinslog.tflite",
+    "version": 2,
     "trained_languages": ["en"],
     "version": 2,
     "micro": {
         "probability_cutoff": 0.97,
         "sliding_window_size": 10,
-        "minimum_esphome_version": "2024.7"
+        "feature_step_size": 10,
+        "tensor_arena_size": 22860,
+        "minimum_esphome_version": "2024.7.0"
     }
 }
